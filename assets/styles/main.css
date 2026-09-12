@@ -3,14 +3,15 @@ body {
   font-family: Arial, sans-serif;
 }
 body.dark-theme .hero-section{
-  background: #1a1a1a !important;
-  color: #f0f0f0;
+ background:
+        radial-gradient(circle at 80% 45%, #cbb09b 0%, transparent 28%),
+        linear-gradient(110deg, #72584b 0%, #967565 52%, #b99a85 100%);
+    color: #fffaf7;
 }
  .hero-section {
   background:
-    radial-gradient(circle at 80% 45%, #ff7a00 0%, transparent 30%),
-    linear-gradient(110deg, #720000 0%, #c90000 45%, #ff6500 100%);
-
+        radial-gradient(circle at 60% 45%, #2dd4bf 0%, transparent 50%),
+        linear-gradient(70deg, #020617 0%, #0f172a 50%, #134e4a 100%);
   overflow: hidden;
 }
 
@@ -25,10 +26,11 @@ body.dark-theme .hero-section{
 
 .nav-link {
   font-weight: 600;
+  color: #34d399;
 }
 
 .nav-link:hover {
-  color: #ffc107 !important;
+  color: #34d399 !important;
 }
 .service-menu {
   background: rgba(70, 0, 0, 0.45);
